@@ -1,4 +1,3 @@
-import DownIcon from "@/app/icons/DownIcon";
 import './dropdown.css';
 import { useEffect, useRef, useState } from "react";
 
