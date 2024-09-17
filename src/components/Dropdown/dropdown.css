@@ -1,0 +1,77 @@
+.dropdown-btn {
+    padding: 12px 34px 12px 16px;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE2Ljk5OTkgOS4xNjk5NEMxNi44MTI2IDguOTgzNjkgMTYuNTU5MSA4Ljg3OTE1IDE2LjI5NDkgOC44NzkxNUMxNi4wMzA4IDguODc5MTUgMTUuNzc3MyA4Ljk4MzY5IDE1LjU4OTkgOS4xNjk5NEwxMS45OTk5IDEyLjcwOTlMOC40NTk5NSA5LjE2OTk0QzguMjcyNTkgOC45ODM2OSA4LjAxOTEzIDguODc5MTUgNy43NTQ5NSA4Ljg3OTE1QzcuNDkwNzYgOC44NzkxNSA3LjIzNzMxIDguOTgzNjkgNy4wNDk5NSA5LjE2OTk0QzYuOTU2MjIgOS4yNjI5MSA2Ljg4MTgzIDkuMzczNTEgNi44MzEwNiA5LjQ5NTM3QzYuNzgwMjkgOS42MTcyMyA2Ljc1NDE1IDkuNzQ3OTMgNi43NTQxNSA5Ljg3OTk0QzYuNzU0MTUgMTAuMDEyIDYuNzgwMjkgMTAuMTQyNyA2LjgzMTA2IDEwLjI2NDVDNi44ODE4MyAxMC4zODY0IDYuOTU2MjIgMTAuNDk3IDcuMDQ5OTUgMTAuNTg5OUwxMS4yODk5IDE0LjgyOTlDMTEuMzgyOSAxNC45MjM3IDExLjQ5MzUgMTQuOTk4MSAxMS42MTU0IDE1LjA0ODhDMTEuNzM3MiAxNS4wOTk2IDExLjg2NzkgMTUuMTI1NyAxMS45OTk5IDE1LjEyNTdDMTIuMTMyIDE1LjEyNTcgMTIuMjYyNyAxNS4wOTk2IDEyLjM4NDUgMTUuMDQ4OEMxMi41MDY0IDE0Ljk5ODEgMTIuNjE3IDE0LjkyMzcgMTIuNzA5OSAxNC44Mjk5TDE2Ljk5OTkgMTAuNTg5OUMxNy4wOTM3IDEwLjQ5NyAxNy4xNjgxIDEwLjM4NjQgMTcuMjE4OCAxMC4yNjQ1QzE3LjI2OTYgMTAuMTQyNyAxNy4yOTU3IDEwLjAxMiAxNy4yOTU3IDkuODc5OTRDMTcuMjk1NyA5Ljc0NzkzIDE3LjI2OTYgOS42MTcyMyAxNy4yMTg4IDkuNDk1MzdDMTcuMTY4MSA5LjM3MzUxIDE3LjA5MzcgOS4yNjI5MSAxNi45OTk5IDkuMTY5OTRaIiBmaWxsPSJibGFjayIvPgo8L3N2Zz4K);
+    background-position: right .8rem center;
+    background-repeat: no-repeat;
+    background-size: 36px 36px;
+    print-color-adjust: exact;
+
+    border-radius: .5rem;
+    border-width: 1px;
+    border-color: rgb(180, 180, 180);
+    background-color: rgb(255 255 255);
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.dropdown-btn:hover {
+    border-color: black;
+}
+
+.dropdown-menu {
+    font-size: .875rem;
+    line-height: 1.25rem;
+    color: rgb(0 0 0);
+    position: absolute;
+    right: 0;
+    z-index: 40;
+    float: left;
+    min-width: 100%;
+    transform-origin: top left;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 0.2s ease, opacity 0.2s ease;
+    list-style-type: none;
+    text-align: left;
+    margin-top: .25rem;
+    border-radius: .5rem;
+    border-width: 1px;
+    border-color: rgb(235 235 235);
+    background-color: rgb(255 255 255);
+    background-clip: padding-box;
+    --tw-shadow: 0px 1px 5px rgba(29, 41, 57, .1), 0px 1px 3px rgba(29, 41, 57, .06);
+    --tw-shadow-colored: 0px 1px 5px var(--tw-shadow-color), 0px 1px 3px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.dropdown-menu.open {
+    max-height: 200px;
+    opacity: 1;
+}
+
+.dropdown-item {
+    clear: both;
+    display: block;
+    width: 100%;
+    max-width: 270px;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border-width: 0;
+    background-color: transparent;
+    font-weight: 400;
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: rgb(0 0 0);
+}
+
+.dropdown-item:hover {
+    background-color: rgb(247 247 247);
+}
+
+.bg-coolGray-50 {
+    --tw-bg-opacity: 1 !important;
+    background-color: rgb(252 252 253 / var(--tw-bg-opacity)) !important;
+}

@@ -1,0 +1,95 @@
+.contributor-profile-section {
+    filter: drop-shadow(0 1px 0 #ebebeb);
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+
+    @media (min-width: 1536px) {
+        max-width: 1536px;
+    }
+}
+
+.swiper-wrapper {
+    transition-duration: 0ms;
+    transform: translate3d(0px, 0px, 0px);
+    transition-delay: 0ms;
+}
+
+.btn {
+    display: inline-block;
+    border: 1px solid transparent;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 500;
+    transition: all .17s ease-in-out;
+    will-change: transform;
+}
+
+.btn-sm {
+    padding: 6px 16px;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.btn-default {
+    border-color: rgb(180, 180, 180);
+}
+
+.btn-default:hover {
+    border-color: black;
+}
+
+.card-container {
+    box-shadow: 0px 4px 50px -4px rgba(33, 33, 33, .04);
+}
+
+.border-coolGray-300 {
+    border-color: rgb(234 236 240) !important;
+}
+
+.text-coolGray-400 {
+    color: rgb(208 213 221) !important;
+}
+
+.text-coolGray-600 {
+    color: rgb(102 112 133) !important;
+}
+
+.ring-coolGray-300 {
+    --tw-ring-color: rgb(234 236 240) !important;
+}
+
+.text-coolGray-500 {
+    color: rgb(152 162 179) !important;
+}
+
+.ring-1 {
+    --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color) !important;
+    --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color) !important;
+}
+
+.group:hover .group-hover {
+    --tw-ring-color: black !important;
+}
+
+.input-group {
+    position: relative;
+    display: inline-flex;
+    align-items: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 0 12px;
+    border-color: rgb(180 180 180) !important;
+}
+
+.bg-coolGray-100 {
+    background-color: rgb(249 250 251) !important;
+}
+
+.form-input {
+    outline: none;
+}
