@@ -35,15 +35,15 @@ export const filterOptions = [
 
 export const sortOptions = [
     {
-        name: 'Votes',
-        value: 'Votes'
+        label: 'Votes',
+        name: 'Votes'
     },
     {
-        name: 'Likes',
-        value: 'Likes'
+        label: 'Likes',
+        name: 'Likes'
     },
     {
-        name: 'Visits',
-        value: 'Visits'
+        label: 'Visits',
+        name: 'Visits'
     }
 ]

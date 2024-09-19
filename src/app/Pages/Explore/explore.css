@@ -9,6 +9,11 @@
     @media (min-width: 1536px) {
         max-width: 1536px;
     }
+
+    @media (min-width: 320px) and (max-width: 767px) {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
 }
 
 .swiper-wrapper {
@@ -25,6 +30,7 @@
     font-weight: 500;
     transition: all .17s ease-in-out;
     will-change: transform;
+    border-color: rgb(180, 180, 180);
 }
 
 .btn-sm {
@@ -34,11 +40,22 @@
 }
 
 .btn-default {
-    border-color: rgb(180, 180, 180);
+    background-color: white;
+    color: black;
+}
+
+.btn-black {
+    background-color: black;
+    color: white;
 }
 
 .btn-default:hover {
     border-color: black;
+}
+
+.btn-black:hover {
+    border-color: #424242;
+    background-color: #424242;
 }
 
 .card-container {
@@ -92,4 +109,21 @@
 
 .form-input {
     outline: none;
+}
+
+.badge {
+    display: inline-block;
+    user-select: none;
+    white-space: normal;
+    border: 1px solid transparent;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 500;
+    padding: 1px 8px;
+}
+
+.menuItem {
+    
 }

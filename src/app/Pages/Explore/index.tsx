@@ -1,25 +1,25 @@
 "use client";
-import ProjectCard from '@/components/ProjectCard';
 import './explore.css';
 import Filter from './Filter';
 import SectionHeader from './SectionHeader';
+import { Provider } from 'react-redux';
+import store from '@/app/store/store';
+import ProjectsView from './ProjectsView';
 
 const ExplorePage = () => {
     return (
-        <section>
+        <Provider store={store}>
+            <section className='bg-[#FBFBFB]'>
             <SectionHeader />
             <div className='pb-24'>
                 <div className='container'>
-                <Filter />
-                <div className='infinite-scroll-component grid grid-cols-4 gap-6 overflow-visible pt-6'>
-                    {Array(20).fill(0).map((_, i) => (
-                        <ProjectCard key={i} />
-                    ))}
-                </div>
+                    <Filter />
+                    <ProjectsView />
                 </div>
             </div>
             
         </section>
+        </Provider>
     );
 }
 
