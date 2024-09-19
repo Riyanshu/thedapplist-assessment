@@ -53,7 +53,7 @@ const ProjectsView = () => {
             next={() => setOffset((prevOffset) => prevOffset + limit)}
             hasMore={total > projectList.length}
             loader={<ProjectLoader />}
-            className="infinite-scroll-component grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 overflow-visible pt-6"
+            className="infinite-scroll-component grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 overflow-visible pt-6"
         >
         
             {projectList.map((project) => (
